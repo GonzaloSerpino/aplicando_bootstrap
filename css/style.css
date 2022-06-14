@@ -161,7 +161,6 @@ body {
     .formulario{
         height: 80vh;
     }
-    
     .formulario form{
         display: flex;
         flex-direction: row;
@@ -173,5 +172,12 @@ body {
     .formulario input{
         margin: 0.5rem;
         width: 70vw;
+    }
+}
+
+@media (max-width: 320px){
+
+    .formulario{
+        height: 90vh;
     }
 }
