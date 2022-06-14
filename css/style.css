@@ -11,7 +11,7 @@ body {
     background-image: url(../imagenes/fondo.jpg);
     background-size: contain;
 }
-
+ /* Index *****************/
 .titulo{
     font-family: 'Dancing Script', cursive;
     font-size: xx-large;
@@ -33,11 +33,89 @@ body {
 }
 
 .carousel {
-    width: 50%;
+    width: 50vw;
     margin: 0 auto;
     margin-bottom: 30px;
 }
 
+.autos img{
+    width: 60vw;
+    height: 60vh;
+}
+
+/* Escuderias ************************/
+.texto{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadro{
+    padding: 0px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cuadro img{
+    padding: 1rem;
+    width: 30vw;
+    height: 40vh;
+}
+/* Pilotos ************************ */
+
+.col{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.pilotos img{
+    width: 40vw;
+    height: 50vh;
+}
+
+.pilotos h2{
+    margin: 1rem;
+    text-align: center;
+    color: aliceblue;
+}
+
+/* Contacto **************/
+.formulario{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+.formulario h1{
+    text-align: center;
+    color: aliceblue;
+    margin: 1rem;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.formulario input{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+/* Footer *******************/
 .footer {
     background-color: #222;
     position: relative;
@@ -61,4 +139,22 @@ body {
 
 .footer i {
     font-size: 40px;
+}
+
+@media (max-width:425px){
+    .texto p{
+        text-align: center;
+    }
+
+    .cuadro img{
+        width: 70vw;
+    }
+
+    .pilotos img{
+        width: 80vw;
+    }
+
+    .pilotos h2{
+        margin-top: 2rem;
+    }
 }
