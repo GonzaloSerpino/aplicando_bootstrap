@@ -157,4 +157,21 @@ body {
     .pilotos h2{
         margin-top: 2rem;
     }
+
+    .formulario{
+        height: 80vh;
+    }
+    
+    .formulario form{
+        display: flex;
+        flex-direction: row;
+        align-content: flex-end;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formulario input{
+        margin: 0.5rem;
+        width: 70vw;
+    }
 }
